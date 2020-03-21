@@ -1,0 +1,8 @@
+black arrow :
+https://g.newsweek.com/www/images/icon-arrow-right-black.svg
+white arrow :
+https://g.newsweek.com/www/images/icon-arrow-right.svg
+search-icon :
+https://g.newsweek.com/www/images/icon-search-glass.svg
+Logo :
+https://g.newsweek.com/www/images/logo-n1.svg
