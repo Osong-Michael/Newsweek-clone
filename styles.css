@@ -151,7 +151,6 @@
    align-items: center;
    justify-content: center;
    height: 50px;
-   width: 200px;
  }
 
  .logo img {
@@ -164,12 +163,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  width: 400px;
 }
 
 .sub-ctn {
   height: 50px;
-  width: 350px;
 }
 
  #small-screen {
