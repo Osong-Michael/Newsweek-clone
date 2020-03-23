@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/640b8b4dbe.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
@@ -29,7 +30,7 @@
         </div>
       </div>
       <nav class="second__nav d-lg-flex">
-        <ul class="m-0">
+        <ul class="m-0 nav-border">
           <li><a href="#">U.S.</a></li>
           <li><a href="#">World</a></li>
           <li><a href="#">Business</a></li>
@@ -52,15 +53,16 @@
       </nav>
     </div>
   </header>
-  <main class="container-fluid">
-    <div class="main-articles row">
-      <div class="col-lg-8">
+  <main class="container-fluid m-0 p-0">
+    <div class="main-articles row mt-3">
+      <div class="col-lg-8 p-0 mx-2">
         <!-- Feature and Top stories -->
         <div class="row">
-          <div class="col-lg-4">
+          <!-- Feature story Container -->
+          <div class="col-lg-5 d-flex align-items-end flex-column">
             <!-- Feature stories -->
-            <h2 class="article-header">Featured Stories</h2>
             <div class="card border-0" style="width: 342.6px;">
+              <h2 class="article-header">Featured Stories</h2>
               <div class="position-relative">
                 <div class="position-absolute article-small">U.S.</div>
                 <img src="https://d.newsweek.com/en/full/1575699/ohio-coronavirus.jpg?w=397&h=265&q=90&f=899960ae2e480fbe4b567b095d603d01" class="card-img-top" alt="...">
@@ -127,6 +129,124 @@
                 <h5 class="card-title font-weight-bold article-title"><a href="#">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</a></h5>
                 <p class="card-text article-p">Newsweek AMPLIFY, the company's independent business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies.</p>
               </div>
+            </div>
+          </div>
+          <!-- Top story Container -->
+          <div class="col-lg-7 d-flex align-items-start flex-column">
+            <!-- Top story -->
+            <div class="card border-0" style="width: 481.5px;">
+              <h2 class="article-header">Top story</h2>
+              <div class="position-relative">
+                <div class="position-absolute article-small">U.S.</div>
+                <img src="https://d.newsweek.com/en/full/1575696/donald-trump.jpg?w=591&h=364&f=c4a7be2fe03204b5fb5327dde00d07c9" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body p-0">
+                <h5 class="card-title pt-3 font-weight-bold article-title"><a href="#">Trump Announces Activation of the National Guard in Worst-Hit COVID-19 States</a></h5>
+                <p class="card-text article-p">"The federal government has deployed hundreds of tons of supplies from our national stockpile to locations with the greatest need in order to assist in those areas," the president said Sunday.</p>
+              </div>
+            </div>
+
+            <!-- Culture and Travel -->
+            <div class="mt-5">
+              <h2 class="article-header">Culture & Travel</h2>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card mt-1 border-0">
+                    <div class="position-relative">
+                      <div class="position-absolute article-small article-small__blue article-small__travel">Travel</div>
+                      <img src="https://d.newsweek.com/en/full/1574874/spanish-steps-italy.jpg?w=397&h=397&f=ad0f7bdfd3dc9fffc99ae723d926ac32" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body p-0">
+                    <h5 class="card-title article-title article-title-2"><a href="#">Social Distancing Around the World in Photos</a></h5>
+                    <p class="card-text article-p article-p-2">From Rome's desolate Spanish Steps to New York's deserted Times Square, take a look at some of the world's busiest landmarks that are all now but eerily empty.</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card mt-1 border-0">
+                    <div class="position-relative">
+                      <div class="position-absolute article-small article-small__blue article-small__travel">Travel</div>
+                      <img src="https://d.newsweek.com/en/full/1575422/breakfast-lunch-dinner.jpg?w=397&h=397&f=a6dbd65ad3ba41063a6b46b1f92b7a60" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body p-0">
+                    <h5 class="card-title article-title article-title-2"><a href="#">Wanderlust Stricken? The 10 Best Travel TV Shows to Watch Now</a></h5>
+                    <p class="card-text article-p article-p-2">Travelers can still explore the world while binge-watching these travel TV shows in home isolation. Thanks to streaming services, we can virtually send ourselves to nearly any and every part of the planet in just a few clicks.</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card mt-1 border-0">
+                    <div class="position-relative">
+                      <div class="position-absolute article-small article-small__blue article-small__travel">Travel</div>
+                      <img src="https://d.newsweek.com/en/full/1574573/taj-mahal.jpg?w=397&h=397&f=6059c9040fd468ee41988930ca76f210" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body p-0">
+                    <h5 class="card-title article-title article-title-2"><a href="#">You Can Still See the World With These Virtual Tours </a></h5>
+                    <p class="card-text article-p article-p-2">What to do with the free time available when trips to the movies, a museum or the theater are out of the question? Here is a list of museums and other popular tourist attractions that have entire collections or performances available online.</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <!-- More stories -->
+            <div class="mt-5">
+              <h2 class="article-header">More stories</h2>
+              <article class="more-stories-border py-3 d-flex">
+                <img class="more-img mr-3" src="https://d.newsweek.com/en/full/1575644/covid-19-new-york-city.jpg?w=95&h=95&f=070745ab8ef2208b3f6b76bbe55abc8b" alt="...">
+                <div class="">
+                    <h4 class="more-h font-weight-bold">U.S. Has Fourth-Highest Number Of COVID-19 Cases Worldwide</h4>
+                    <p class="more-p">The country has reported more than 26,700 confirmed cases of the new coronavirus.</p>
+                </div>
+              </article>
+              <article class="more-stories-border py-3 d-flex">
+                <img class="more-img mr-3" src="https://d.newsweek.com/en/full/1575677/pritzker.jpg?w=95&h=95&f=d92cbd3981d7a34644bcf9c6efcb60b0" alt="...">
+                <div class="">
+                    <h4 class="more-h font-weight-bold">Illinois Governor Pritzker Tells Trump to 'Get Off Twitter & Do Your Job'</h4>
+                    <p class="more-p">"You wasted precious months when you could've taken action to protect Americans & Illinoisans," Pritzker said.</p>
+                </div>
+              </article>
+              <article class="more-stories-border py-3 d-flex">
+                <img class="more-img mr-3" src="https://d.newsweek.com/en/full/1575678/angela-merkel.jpg?w=95&h=95&f=912a4e403b6a9a348a4f712010af9410" alt="...">
+                <div class="">
+                    <h4 class="more-h font-weight-bold">Angela Merkel Has Entered Quarantine Over Coronavirus Concern</h4>
+                    <p class="more-p">"Even from domestic quarantine, the Chancellor will continue her official business," the German leader's spokesperson said.</p>
+                </div>
+              </article>
+              <article class="more-stories-border py-3 d-flex">
+                <img class="more-img mr-3" src="https://d.newsweek.com/en/full/1575662/alexandria-ocasio-cortez.jpg?w=95&h=95&f=3799e5dd3152d9b649d5824cc1c163b8" alt="...">
+                <div class="">
+                    <h4 class="more-h font-weight-bold">AOC: Trump Is 'Going to Cost Lives' by Not Using Defense Production Act</h4>
+                    <p class="more-p">"We cannot wait until people start really dying in large numbers," the progressive Democrat from New York warned.</p>
+                </div>
+              </article>
+              <article class="more-stories-border py-3 d-flex">
+                <img class="more-img mr-3" src="https://d.newsweek.com/en/full/1575559/hand-sanitizer.jpg?w=95&h=95&f=af5e9935bbff7640af192a9ea3335c17" alt="...">
+                <div class="">
+                    <h4 class="more-h font-weight-bold">Global Coronavirus Death Toll Now Exceeds 11,500 </h4>
+                    <p class="more-p">Hospitals struggle to cope in Italy, bars and restaurants in the U.K. have been closed, and the European Union allows member states to spend as much as they need to combat the virus.</p>
+                </div>
+              </article>
+              <article class="more-stories-border py-3 d-flex">
+                <img class="more-img mr-3" src="https://d.newsweek.com/en/full/1574965/walter-ogrod.jpg?w=95&h=95&f=ff59f72938b083fa799a88d7736efe8d" alt="...">
+                <div class="">
+                    <h4 class="more-h font-weight-bold">Pennsylvania Court Orders Death Row Inmate Get Coronavirus Test</h4>
+                    <p class="more-p">Walter Ogrod's lawyers had filed an emergency motion after the 55-year-old developed a high fever, cough and had difficulties breathing, but wasn't tested for COVID-19.</p>
+                </div>
+              </article>
+              <article class="more-stories-border py-3 d-flex">
+                <img class="more-img mr-3" src="https://d.newsweek.com/en/full/1575683/cameron-van-der-burgh.jpg?w=95&h=95&f=f32400a2feb313f893bde85415bf19ee" alt="...">
+                <div class="">
+                    <h4 class="more-h font-weight-bold">Olympic Champion Swimmer Diagnosed With Coronavirus Calls It 'Worse Virus'</h4>
+                    <p class="more-p">Cameron van der Burgh, the Olympic gold medalist in the 100-meter breaststroke in 2012 and silver medalist in 2016, talks about his physical struggles during his 14th day in </p>
+                </div>
+              </article>
+              <article class="more-stories-border py-3 d-flex">
+                <img class="more-img mr-3" src="https://d.newsweek.com/en/full/1575653/mark-desaulnier.jpg?w=95&h=95&f=a5f032524f180168dbb027d89c86a6cd" alt="...">
+                <div class="">
+                    <h4 class="more-h font-weight-bold">Congressman Mark DeSaulnier in Critical Condition With Pneumonia</h4>
+                    <p class="more-p">"The doctors are doing everything they can to care for the Congressman," the representative's office said in a statement.</p>
+                </div>
+              </article>
             </div>
           </div>
         </div>

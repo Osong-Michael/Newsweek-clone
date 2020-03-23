@@ -101,6 +101,10 @@ body {
   border: none;
 }
 
+.nav-border {
+  border-bottom: 1px solid #f4f5f6;
+}
+
 #small-screen {
   margin-bottom: 5px;
   margin-left: 10px;
@@ -152,7 +156,7 @@ body {
   color: #000;
 }
 
-.article-title a:hover {
+.article-title a:hover, .more-h:hover {
   text-decoration: underline #f72210;
 }
 
@@ -177,6 +181,56 @@ body {
 .article-small__blue {
   color: #3581f4;
   cursor: text;
+}
+
+.article-small__travel{
+  padding: 0 6px;
+  font-size: 13px;
+  font-weight: lighter;
+  text-transform: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.article-small__travel:hover {
+  background: #272727;
+  color: #c2d4d7;
+}
+
+.article-title-2 {
+  font-size: 22px;
+  color: #272727;
+  font-family: 'Lora', serif;
+}
+
+.article-title-2 a:hover {
+  text-decoration: none;
+}
+
+.article-p-2 {
+  color: rgba(39,39,39,.5);
+}
+
+
+.more-stories-border {
+  border-top: 1px solid #ddd;
+}
+
+.more-img {
+  height: 95px;
+  width: 95px;
+  cursor: pointer;
+}
+
+.more-h {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.more-p {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
 }
 
 
