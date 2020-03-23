@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .first__nav {
   display: grid;
   grid-template-areas: 'weather logo logo sub-ctn';
@@ -5,7 +9,6 @@
   background-color: #f72210;
   color: white;
   height: 95px;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 .weather {
@@ -131,6 +134,49 @@
   border-top: 0.8rem solid rgb(247, 34, 16);
   border-right: 65px solid rgb(247, 34, 16);
   border-left: 0.8rem solid white;
+}
+
+.article-header {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(3,3,3,.4);
+}
+
+.article-title {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.article-title a {
+  color: #000;
+}
+
+.article-title a:hover {
+  text-decoration: underline #f72210;
+}
+
+.article-p {
+  color: #333;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.article-small {
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 7px 14px 8px;
+  color: #f72210;
+  background-color:  rgba(255,255,255,.9);
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.article-small__blue {
+  color: #3581f4;
+  cursor: text;
 }
 
 
