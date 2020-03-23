@@ -297,8 +297,38 @@ body {
 
 .debate-border-2 {
   border-top: 4px solid #1c87fb;
-  border-bottom: 1px solid rgba(39,39,39,.5);
+  border-bottom: 1px solid rgba(87, 86, 86, 0.5);
 }
+
+.latest-txt-2:hover {
+  color: #f72210;
+  cursor: pointer;
+}
+
+.border-rnd {
+  border: 1px solid rgba(39,39,39,.1);
+}
+
+.bg-img {
+  content: '';
+  height: 29px;
+  width: 28px;
+  background: url('https://g.newsweek.com/www/images/logo-n1.svg'), #f72210;
+}
+
+.card-sign {
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  border-radius: 0;
+}
+
+.card-sign-p {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #333;
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 991px) {
  .first__nav {
