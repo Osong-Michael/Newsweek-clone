@@ -222,8 +222,8 @@ body {
 }
 
 .more-img {
-  height: 95px;
-  width: 95px;
+  max-height: 95px;
+  max-width: 95px;
   cursor: pointer;
 }
 
@@ -338,6 +338,9 @@ body {
     grid-template-areas: 'logo weather weather sub-ctn';
     height: 50px;
     text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
  }
 
  .second__nav, .second__nav::after, .date-time {
@@ -367,10 +370,9 @@ body {
   height: 50px;
 }
 
-/* .container-fluid {
-  max-width: 1310px;
-  padding: 0 30px;
-} */
+.main-articles {
+  padding-top: 20px;
+}
 
  #small-screen {
    display: inline;
