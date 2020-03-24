@@ -227,6 +227,11 @@ body {
   cursor: pointer;
 }
 
+.more-img-2 {
+  height: 64px;
+  width: 95px;
+}
+
 .more-h {
   font-size: 17px;
   cursor: pointer;
@@ -303,6 +308,7 @@ body {
 .latest-txt-2:hover {
   color: #f72210;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .border-rnd {
@@ -380,6 +386,19 @@ body {
   border-top: 1px solid #dbdcdd;
 }
 
+.fs-header {
+  color: #f72210;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.sub-me {
+  background-color: #f72210;
+  color: white;
+  border: 1px solid #f72210;
+}
+
+
 @media screen and (max-width: 991px) {
  .first__nav {
     display: grid;
@@ -431,5 +450,13 @@ body {
 @media screen and (max-width: 767px) {
   .gone {
     border-top: 0;
+  }
+
+  .img-me {
+    text-align: center;
+  }
+
+  .txt-me {
+    text-align: center;
   }
 }
