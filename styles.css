@@ -336,8 +336,8 @@ body {
 }
 
 .section-header {
-  margin: 30px auto 0 auto;
-  width: 100%;
+  margin: 30px auto 5px auto;
+  width: 97%;
   text-align: center;
 }
 
@@ -353,6 +353,32 @@ body {
   background-color: #dbdcdd;
 }
 
+.article-small-2 {
+  padding: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #fff;
+}
+
+.article-small-span {
+  color: #fff;
+  background: #f72210;
+  padding: 2px 4px;
+}
+
+.mag-img {
+  border: 1px solid blue;
+}
+
+.mag-img img {
+  width: 100%;
+}
+
+.gone {
+  border-top: 1px solid #dbdcdd;
+}
 
 @media screen and (max-width: 991px) {
  .first__nav {
@@ -399,4 +425,11 @@ body {
  #small-screen {
    display: inline;
  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .gone {
+    border-top: 0;
+  }
 }
