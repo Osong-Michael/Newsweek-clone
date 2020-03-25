@@ -45,12 +45,16 @@ body {
   justify-content: flex-end;
 }
 
-.sub-ctn span,
+.sub-ctn a,
 .sub-ctn button {
   margin-bottom: 18px;
   margin-right: 10px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.sub-ctn a {
+  color: #fff;
 }
 
 .sub-ctn button {
@@ -450,6 +454,10 @@ body {
 .article-title a:hover,
 .more-h:hover {
   text-decoration: underline #f72210;
+}
+
+.sub-ctn a:hover {
+  text-decoration: none;
 }
 
 #small-screen {
