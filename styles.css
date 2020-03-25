@@ -47,7 +47,7 @@ body {
 
 .sub-ctn span,
 .sub-ctn button {
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   margin-right: 10px;
   font-size: 18px;
   font-weight: bold;
@@ -323,7 +323,7 @@ body {
 }
 
 .change-me {
-  width: 342px;
+  width: 300px;
 }
 
 .card-sign {
@@ -512,6 +512,11 @@ body {
   height: 50px;
 }
 
+.sub-ctn span,
+.sub-ctn button {
+  margin-bottom: 12px;
+}
+
 .main-articles {
   padding-top: 20px;
 }
@@ -549,6 +554,46 @@ body {
   }
 
   .change-me {
-    width: 737px;
+    width: 100%;
+  }  
+}
+
+
+@media screen and (max-width: 640px) {
+  #not-there {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .sub-ctn button {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .sub-ctn span {
+    font-size: 14px;
+    margin-right: 3px;
+  }
+
+  #small-screen {
+    margin-left: 2px;
+    margin-bottom: 9px;
+  }
+}
+
+
+@media screen and (max-width: 402px) {
+  .weather {
+    display: none;
+  }
+
+  .sub-ctn span, .sub-ctn button {
+    font-size: 12px;
+  }
+
+  #small-screen {
+    margin-left: 0;
   }
 }
