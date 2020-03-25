@@ -398,6 +398,10 @@ body {
   border: 1px solid #f72210;
 }
 
+.red-height img{
+  height: 270px;
+}
+
 
 @media screen and (max-width: 991px) {
  .first__nav {
@@ -441,6 +445,11 @@ body {
   padding-top: 20px;
 }
 
+.red-height img {
+  width: 191px;
+  height: 180px;
+}
+
  #small-screen {
    display: inline;
  }
@@ -458,5 +467,13 @@ body {
 
   .txt-me {
     text-align: center;
+  }
+
+  .red-height {
+    width: 100%;
+  }
+
+  .red-height img {
+    width: 100%;
   }
 }
