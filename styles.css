@@ -398,6 +398,10 @@ body {
   font-size: 12px;
 }
 
+.mine{
+  max-width: 737px;
+}
+
 .fa-facebook-square:hover {
   color: #3b5998;
 }
