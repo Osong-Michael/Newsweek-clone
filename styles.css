@@ -523,7 +523,7 @@ body {
     height: 50px;
   }
 
-  .sub-ctn span,
+  .sub-ctn a,
   .sub-ctn button {
     margin-bottom: 12px;
   }
@@ -580,7 +580,7 @@ body {
     font-weight: bold;
   }
 
-  .sub-ctn span {
+  .sub-ctn a {
     font-size: 14px;
     margin-right: 3px;
   }
@@ -596,7 +596,7 @@ body {
     display: none;
   }
 
-  .sub-ctn span,
+  .sub-ctn a,
   .sub-ctn button {
     font-size: 12px;
   }
