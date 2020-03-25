@@ -5,10 +5,12 @@
 Screenshot of Page
 
 ![screenshot](img/screen1.PNG)
+
 ![screenshot](img/screen2.PNG)
+
 ![screenshot](img/screen3.PNG)
 
-> For this project I used the Bootstrap Grid system to achieve the requried responsiveness for the page. I also added my own personal styles (Media Queriess) to achieve certain design aspects that I could not achive with Bootstrap alone. Also I included my own personal styles too to reolicate the design of the page (Colors, Hover-effects etc). For the first time too I use the CSS Grid system to achieve the first navbar layout and its resposivness which I must say I'm pretty proud of. It was a challenging Project, I'm just happy I was able to at least make it look as close to the original as possible.
+> For this project I used the Bootstrap Grid system to achieve the requried responsiveness for the page. I also added my own personal styles (Media Queriess) to achieve certain design aspects that I could not achive with Bootstrap alone. Also I included my own personal styles too to replicate the design of the page (Colors, Hover-effects etc). For the first time too I use the CSS Grid system to achieve the first navbar layout and its resposivness which I must say I'm pretty proud of. It was a challenging Project, I'm just happy I was able to at least make it look as close to the original as possible.
 
 ## Built With
 
